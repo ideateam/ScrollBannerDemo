@@ -163,6 +163,15 @@
     NSLog(@"%ld",tap.view.tag);
     
 }
+-(void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{
+    
+    [UIView animateWithDuration:0.2 animations:^{
+        __weak __typeof__(self) weakSelf = self;
+        weakSelf.leftV.hidden = YES;
+        weakSelf.rightV.hidden = YES;
+    }];
+}
+
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
     int x = scrollView.contentOffset.x / ([UIScreen mainScreen].bounds.size.width) ;
@@ -175,7 +184,7 @@
     UIImageView *v = [self.view viewWithTag:100 + x];
     UIImageView *v1 = [self.view viewWithTag:100 + x - 1];
     UIImageView *v2 = [self.view viewWithTag:100 + x + 1];
-    
+
     
     if (x == 0) {
         
@@ -227,6 +236,12 @@
     i = x;
 }
 -(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    
+    [UIView animateWithDuration:0.2 animations:^{
+        __weak __typeof__(self) weakSelf = self;
+        weakSelf.leftV.hidden = NO;
+        weakSelf.rightV.hidden = NO;
+    }];
     
     int x = scrollView.contentOffset.x / ([UIScreen mainScreen].bounds.size.width) ;
     
