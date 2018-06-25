@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBB3828320E0BD1300A40D6B /* ScrollBannerFBC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB3828220E0BD1300A40D6B /* ScrollBannerFBC.m */; };
+		CBB3828620E0BFA600A40D6B /* FViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB3828520E0BFA600A40D6B /* FViewController.m */; };
 		CBD37BE620DB7F4300B7A302 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD37BE520DB7F4300B7A302 /* AppDelegate.m */; };
 		CBD37BE920DB7F4300B7A302 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD37BE820DB7F4300B7A302 /* ViewController.m */; };
 		CBD37BEC20DB7F4300B7A302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD37BEA20DB7F4300B7A302 /* Main.storyboard */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CBB3828120E0BD1300A40D6B /* ScrollBannerFBC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollBannerFBC.h; sourceTree = "<group>"; };
+		CBB3828220E0BD1300A40D6B /* ScrollBannerFBC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollBannerFBC.m; sourceTree = "<group>"; };
+		CBB3828420E0BFA600A40D6B /* FViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FViewController.h; sourceTree = "<group>"; };
+		CBB3828520E0BFA600A40D6B /* FViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FViewController.m; sourceTree = "<group>"; };
 		CBD37BE120DB7F4200B7A302 /* LeftAndRightScrollBannerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftAndRightScrollBannerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD37BE420DB7F4300B7A302 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBD37BE520DB7F4300B7A302 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +107,8 @@
 		CBD37BE320DB7F4200B7A302 /* LeftAndRightScrollBannerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CBB3828120E0BD1300A40D6B /* ScrollBannerFBC.h */,
+				CBB3828220E0BD1300A40D6B /* ScrollBannerFBC.m */,
 				CBD37BE420DB7F4300B7A302 /* AppDelegate.h */,
 				CBD37BE520DB7F4300B7A302 /* AppDelegate.m */,
 				CBD37BE720DB7F4300B7A302 /* ViewController.h */,
@@ -110,6 +118,8 @@
 				CBD37BEF20DB7F5100B7A302 /* LaunchScreen.storyboard */,
 				CBD37BF220DB7F5100B7A302 /* Info.plist */,
 				CBD37BF320DB7F5100B7A302 /* main.m */,
+				CBB3828420E0BFA600A40D6B /* FViewController.h */,
+				CBB3828520E0BFA600A40D6B /* FViewController.m */,
 			);
 			path = LeftAndRightScrollBannerDemo;
 			sourceTree = "<group>";
@@ -262,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB3828320E0BD1300A40D6B /* ScrollBannerFBC.m in Sources */,
+				CBB3828620E0BFA600A40D6B /* FViewController.m in Sources */,
 				CBD37BE920DB7F4300B7A302 /* ViewController.m in Sources */,
 				CBD37BF420DB7F5100B7A302 /* main.m in Sources */,
 				CBD37BE620DB7F4300B7A302 /* AppDelegate.m in Sources */,
